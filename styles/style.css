@@ -8,7 +8,7 @@
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(162, 158, 158);
+    background-color: rgb(225, 218, 218);
     padding: 15px;
 }
 .nav-logo{
@@ -31,4 +31,51 @@
     font-size: 19px;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* banner section styles */
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 86px;
+    font-weight: 900;
+    color: white;
+}
+.title-digital{
+    color: red;
+}
+.banner-description{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: auto;
+}
+.btn{
+    padding: 15px 35px;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+}
+.btn-more{
+    background-color: red;
+    color: white;
+}
+.buttons{
+    padding: 10px;
 }
