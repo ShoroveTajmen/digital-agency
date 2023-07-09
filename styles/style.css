@@ -183,4 +183,55 @@ align-items: center;
     margin-right: 180px;
 }
 
+/* Appoinment section style */
+.appointment-section{
+
+}
+.apointment-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    margin-top: -80px;
+}
+.app-con-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 3px solid gray;
+}
+.call-img{
+    width:100px;
+    padding: 15px;
+}
+.app-description{
+    font-size: 13px;
+    font-weight: bold;
+}
+.app-number{
+    font-size: 40px;
+}
+.app-con-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appointment-des{
+    padding: 10px;
+}
+.btn-app{
+    margin: 20px;
+    padding: 15px 30px;
+    color: black;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+}
+
 
