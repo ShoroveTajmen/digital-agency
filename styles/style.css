@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav container style */
+.nav-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(162, 158, 158);
+    padding: 15px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: cyan;
+}
+.logo{
+    width: 200px;
+}
+.nav-link{
+    display: flex;
+}
+.items{
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+}
